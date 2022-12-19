@@ -1,0 +1,28 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Crystal_Small
+D Two pin crystal
+K Quartz, Resonator, Ceramic, Filter
+$ENDCMP
+#
+$CMP D
+D Diode
+$ENDCMP
+#
+$CMP D_Schottky
+D ode schottky
+$ENDCMP
+#
+$CMP Ind
+D Inductor
+$ENDCMP
+#
+$CMP L_Small
+D Inductor
+$ENDCMP
+#
+$CMP R
+K R DEV
+$ENDCMP
+#
+#End Doc Library
