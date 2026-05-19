@@ -1,0 +1,227 @@
+(footprint "SW_SPST"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "C&K Components SPST SMD PTS645 Series 6mm Tact Switch")
+	(tags "SPST Button Switch")
+	(property "Reference" "SW1"
+		(at 0 -4.05 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c39c3b7e-5b36-4ad3-bed1-38df40ce5273")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_PUSH"
+		(at 0 4.15 0)
+		(layer "F.Fab")
+		(uuid "e140c4be-adaa-48f1-949b-5c5834637f9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ff77b4ab-7cfb-4136-bdd5-a8c9dac8add7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54b0f9d5-573d-4fa6-8253-36c8ffdc45c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.225 -3.225)
+		(end 3.225 -3.225)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39543fd6-b6c8-4cbe-96a6-8745555ff07d")
+	)
+	(fp_line
+		(start -3.225 -3.2)
+		(end -3.225 -3.225)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a263018-5831-4858-81f0-bb8fd93ebb22")
+	)
+	(fp_line
+		(start -3.225 -1.3)
+		(end -3.225 1.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b5b0c092-b4d8-4126-8583-d9c7681bde8b")
+	)
+	(fp_line
+		(start -3.225 3.225)
+		(end -3.225 3.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "101645a9-af4d-43ca-8882-b851e5f41635")
+	)
+	(fp_line
+		(start -3.225 3.225)
+		(end 3.225 3.225)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "98b7743e-a08d-4e6f-b425-b9dd5d443e96")
+	)
+	(fp_line
+		(start 3.225 -3.225)
+		(end 3.225 -3.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70697d10-8b80-4e8e-a6ee-9976eccd4436")
+	)
+	(fp_line
+		(start 3.225 -1.3)
+		(end 3.225 1.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b4a4bd9f-2bb8-459d-85d6-5d9dedd7c780")
+	)
+	(fp_line
+		(start 3.225 3.225)
+		(end 3.225 3.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "77f1956e-e849-43c3-a409-9ff27794b06b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.75 -0.05)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "47fbf850-7857-4a07-9985-16b63840ca58")
+	)
+	(fp_line
+		(start -5.05 -3.4)
+		(end -5.05 3.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "26468988-00cb-4a81-8a14-2f524c3b1904")
+	)
+	(fp_line
+		(start -5.05 -3.4)
+		(end 5.05 -3.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bec95570-ff72-4be8-ba63-eaae4801e9dc")
+	)
+	(fp_line
+		(start -5.05 3.4)
+		(end 5.05 3.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5dc11645-c96a-4676-9497-af4ce6d9a08f")
+	)
+	(fp_line
+		(start 5.05 3.4)
+		(end 5.05 -3.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d3a31042-3e4e-461c-8cdc-5d80833d72ad")
+	)
+	(pad "1" smd roundrect
+		(at -3.975 -2.25)
+		(size 1.55 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1923076923)
+		(uuid "397097a2-8ce3-4234-aa0b-69b9ff412d84")
+	)
+	(pad "1" smd roundrect
+		(at 3.975 -2.25)
+		(size 1.55 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1923076923)
+		(uuid "4e21f75a-8de8-4bdd-8b46-2d11361b4fa0")
+	)
+	(pad "2" smd roundrect
+		(at -3.975 2.25)
+		(size 1.55 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1923076923)
+		(uuid "cf9f1dc6-c9e1-45d6-9bb8-1aac9184b59b")
+	)
+	(pad "2" smd roundrect
+		(at 3.975 2.25)
+		(size 1.55 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1923076923)
+		(uuid "7fa7b688-15bd-4cad-8275-5d99e53d873f")
+	)
+	(embedded_fonts no)
+	(model "Buttons_Switches_SMD.3dshapes/SW_SPST_PTS645.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
